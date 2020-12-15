@@ -1,0 +1,261 @@
+/* ======================================
+ Common
+====================================== */ 
+* {
+   margin: 0;
+   padding: 0;
+   color: #000000;
+   font-size: 1rem;
+}
+
+body {
+  background: #FFFFFF;
+}
+
+/* ======================================
+ Header
+====================================== */
+
+.header_list{
+  background :rgb(135 194 236);
+  /* padding    : 20px; */
+  /* width: 97%; */
+}
+.header_list {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  /* padding-left: 100px; */
+}
+.header_list .yago {
+  height: 160px;
+  display: block;
+  border-radius: 12px;
+  /* border-radius: 40px; */
+  }
+.header_list .tel {
+  height: 160px;
+  display: block;
+  border-radius: 12px;
+  /* margin-left: 20px;
+  margin-top: 10px;
+  border-radius: 30px; */
+}
+/* ======================================
+ Contents
+====================================== */
+.content {
+  background-color: #bed1f3;
+}
+.content h2 {
+  font-size: 50px;
+  color: #0033FF;
+  text-align:center
+}
+.content h3 {
+  font-size: 45px;
+  color: #5d4df0;
+  text-align:center;
+  padding-top: 0px;
+}
+
+.content .corona {
+  width: 100%;
+  margin: 5px auto;
+  display: inline-block;
+  background-color: #f1eb40;
+  box-sizing: border-box;
+  font-weight: bold;
+  padding: 20px 50px;
+  border-radius: 4px;
+  border: 1px solid #797978;
+}
+
+.content .corona * {
+  font-size: 34px;
+  color: #0033FF;
+}
+
+.content .corona li {
+  list-style-type: none;
+}
+
+.content img {
+  /* width: 70%;
+  height: 60%; */
+  margin: 0 auto;
+  display: block;
+}
+
+.content .toire {
+    height: 5px;
+}
+
+.cp_hr09 {
+	height: 2px;
+	border-width: 0;
+	background-color: #80deea;
+	background-image: -webkit-linear-gradient(right,
+	#80deea 5px,#0097a7 5px);
+	background-image:         linear-gradient(-90deg,
+	#80deea 5px,#0097a7 5px);
+	background-size: 10px 10px;
+}
+
+.content .kittin {
+  padding-bottom: 0px;
+}
+
+.content .description li { 
+  text-indent: 0;
+  margin: 5px 0;
+}
+
+.content .description li:before {
+  content: "●";
+  color: rgb(4 178 252);
+  margin-right: 5px;
+}
+
+.content ul.services {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 50px 0;
+}
+
+.content ul.services > li {
+  width: 270px;
+  list-style-type: none;
+  margin: 0;
+  list-style-position: outside;
+  position: relative;
+}
+
+.content ul.services > li:before {
+  content: "基本料金 3,000円";
+  font-family: 'Anton', sans-serif;
+  position: absolute;
+  display: block;
+  /* width: 100%; */
+  font-size: 30px;
+  color: #f06161;
+  font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fffc38;
+  text-shadow: 3px 3px 0 #fffc38;
+  top: 130px;
+  right: -20px;
+}
+
+.content ul.services > li img {
+  width: 100%;
+}
+
+.content ul.services .description {
+  background: #bed7f1;
+  background: linear-gradient(to top, rgb(193 207 206) 0%, rgb(246 249 251) 100%);
+  width: 230px;
+  margin: 3px auto 20px auto;
+  border-radius: 4px;
+  font-size: 15px;
+  color: #525462;
+  font-weight: bold;
+  box-shadow: 0 0 6px 5px rgb(191 209 243) inset;
+  padding: 10px;
+}
+
+.content ul.services .description ul {
+  list-style: none;
+  padding:0;
+  margin:0;
+}
+
+.content .box {
+  width: 960px;
+  margin: 20px auto;
+}
+
+.content .box > img {
+  width: 100%;
+}
+
+
+
+.hikaku_wrapper .box {
+  width: 960px;
+  margin: 20px auto;
+}
+
+.hikaku_wrapper .box img {
+  width: 100%;
+}
+
+.hikaku {
+  text-align : center
+}
+
+.hikaku .hikaku_inner {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.hikaku .hikaku_inner img {
+  display: block;
+  width: 477px;
+}
+.hikaku_wrapper .box .hikaku h3 {
+  background-color: lightpink;
+  font-size: 40px;
+  font-style:oblique;
+  color: rgb(246, 250, 7);
+  text-shadow:0 5px 5px black;
+  margin-bottom: 5px;
+  }
+.sagyoumae {
+ margin: -15px;
+}
+.sagyoumae h2 {
+  color: hsl(78, 91%, 50%);
+  font-size: 40px;
+  background-color: mediumturquoise;
+  font-style:oblique;
+  text-shadow :1px 1px 0 black;
+  text-align : center
+}
+span {
+  color: rgb(209, 127, 209);
+  font-size: 40px;
+}
+.mitumori {
+  height: 15px　auto;
+  margin-top: 20px;
+  text-align : center
+}
+.otoiawase h2 {
+  color: hsl(273, 100%, 50%);
+  font-size: 40px;
+  background-color: rgb(253, 194, 0);
+  font-style:oblique;
+  text-shadow :1px 1px 0 black;
+  text-align : center
+}
+
+.nagare li {
+  list-style: none; 
+}
+
+#nagare {  
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  color: #00BCD4;
+  background: #e4fcff;/*背景色*/
+  border-top: solid 6px #1dc1d6;
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.32);/*影*/
+}
+#nagare li {
+  list-style: none;
+  margin: 0; 
+  padding: 0;
+}
